@@ -53,6 +53,7 @@ function CodingProfiles() {
           </div>
         </div>
 
+
         <div className="bg-white rounded-lg shadow-md overflow-hidden">
           <img className="w-full h-48 object-cover" src={hackerrank} alt="HackerRank" />
           <div className="p-4 bg-gradient-to-b from-slate-900 to-slate-800">

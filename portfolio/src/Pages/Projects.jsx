@@ -4,6 +4,10 @@ import DevDiaries from '../assets/DevDiaries.png'
 import expense from '../assets/expense.png'
 import apvc from '../assets/apvc.png'
 import { motion } from 'framer-motion'
+import picport from '../assets/picport.png'
+import videoStramApp from '../assets/videoStramApp.png'
+import travel from '../assets/Screenshot 2023-10-18 121240.png'
+import todoapp from '../assets/todoapp.png'
 
 function Projects() {
   return (
@@ -83,14 +87,14 @@ keep track of their budgets
         </div>
 
         <div className="bg-white rounded-lg shadow-md overflow-hidden">
-          <img className="w-full h-48 object-cover" src="" alt="HackerRank" />
+          <img className="w-full h-48 object-cover" src={picport} alt="picport" />
           <div className="p-4 bg-gradient-to-b from-slate-900 to-slate-800">
             <h2 className="text-xl font-bold text-center pb-7 text-gray-200">PicPort</h2>
             <p className='text-sm text-gray-300'> 
             Developed a web application that allows users to upload, share, and explore images. Utilized React.Js  to create a seamless user experience, with features like image upload, search, and user authentication.
             </p>
             <a href="https://github.com/Anshika13d/Picport">
-            <motion.button whileHover={{y: -5, boxShadow: "0px 8px 15px rgba(0, 0, 0, 0.3)"}} className="p-3 rounded-full w-full bg-gradient-to-t from-gray-700 to-slate-800 text-white hover:bg-gray-600 transition">
+            <motion.button whileHover={{y: -5, boxShadow: "0px 8px 15px rgba(0, 0, 0, 0.3)"}} className="p-3 rounded-full w-full bg-gradient-to-t from-gray-700 to-slate-800  mt-5 text-white hover:bg-gray-600 transition">
               Explore
             </motion.button>
             </a>
@@ -99,14 +103,14 @@ keep track of their budgets
         </div>
 
         <div className="bg-white rounded-lg shadow-md overflow-hidden">
-          <img className="w-full h-48 object-cover" src="" alt="Coding Ninjas" />
+          <img className="w-full h-48 object-cover" src={videoStramApp} alt="juzzPlay" />
           <div className="p-4 bg-gradient-to-b from-slate-900 to-slate-800">
             <h2 className="text-xl font-bold text-center pb-7 text-gray-200">Video Streaming app</h2>
             <p className='text-sm text-gray-300'>
             Developed a video streaming app that allows users to watch and upload videos. Utilized Node.js and Express.js to create a RESTful API for video upload and retrieval, and MongoDB for data storage.
             </p>
             <a href="https://github.com/Anshika13d/Video_Streaming_app">
-            <motion.button whileHover={{y: -5, boxShadow: "0px 8px 15px rgba(0, 0, 0, 0.3)"}} className="p-3 rounded-full w-full bg-gradient-to-t from-gray-700 to-slate-800 text-white hover:bg-gray-600 transition">
+            <motion.button whileHover={{y: -5, boxShadow: "0px 8px 15px rgba(0, 0, 0, 0.3)"}} className="p-3 rounded-full w-full bg-gradient-to-t from-gray-700 to-slate-800  mt-5 text-white hover:bg-gray-600 transition">
               Github
             </motion.button>
             </a>
@@ -114,14 +118,14 @@ keep track of their budgets
         </div>
 
         <div className="bg-white rounded-lg shadow-md overflow-hidden">
-          <img className="w-full h-48 object-cover" src="" alt="todoapp" />
+          <img className="w-full h-48 object-cover" src={todoapp} alt="todoapp" />
           <div className="p-4 bg-gradient-to-b from-slate-900 to-slate-800">
             <h2 className="text-xl font-bold text-center pb-7 text-gray-200">Todo App</h2>
             <p className='text-sm text-gray-300'>
             Created a responsive and user-friendly Todo App, allowing users to manage their tasks efficiently. Utilized React.js to build a dynamic front-end interface with features like task creation, deletion, and filtering
             </p>
             <a href="https://github.com/Anshika13d/Web_development_projects/tree/main/To-do%20list">
-            <motion.button whileHover={{y: -5, boxShadow: "0px 8px 15px rgba(0, 0, 0, 0.3)"}} className="p-3 rounded-full w-full bg-gradient-to-t from-gray-700 to-slate-800 text-white hover:bg-gray-600 transition">
+            <motion.button whileHover={{y: -5, boxShadow: "0px 8px 15px rgba(0, 0, 0, 0.3)"}} className="p-3 rounded-full w-full bg-gradient-to-t from-gray-700 to-slate-800  mt-5 text-white hover:bg-gray-600 transition">
               Github
             </motion.button>
             </a>
@@ -129,7 +133,7 @@ keep track of their budgets
         </div>
 
         <div className="bg-white rounded-lg shadow-md overflow-hidden">
-          <img className="w-full h-48 object-cover" src="" alt="Coding Ninjas" />
+          <img className="w-full h-48 object-cover" src={travel} alt="Coding Ninjas" />
           <div className="p-4 bg-gradient-to-b from-slate-900 to-slate-800">
             <h2 className="text-xl font-bold text-center pb-7 text-gray-200">Travel Haven</h2>
             <p className='text-sm text-gray-300'>

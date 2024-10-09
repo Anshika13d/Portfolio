@@ -1,5 +1,5 @@
 import React from 'react'
-import leetcode from '../assets/leetcode.png'
+import leetcode from '../assets/LeetCode.png'
 import geeksforgeeks from '../assets/gfg.png'
 import github from '../assets/github.png'
 import hackerrank from '../assets/hackerrank.png'   

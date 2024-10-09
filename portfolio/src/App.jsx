@@ -28,7 +28,7 @@ function App() {
             <Link to='/about' className="hover:text-gray-200 transition">About</Link>
             <Link to='/projects' className="hover:text-gray-200 transition">Projects</Link>
             <a 
-              href='https://www.canva.com/design/DAF7PMuxOAc/xrkVs_4d2kFtrIQ9BehuXA/view?utm_content=DAF7PMuxOAc&utm_campaign=designshare&utm_medium=link&utm_source=editor' 
+              href='https://www.canva.com/design/DAGSEwH7ZGc/qEsPnbb_K8YFFEh2B23fUQ/view?utm_content=DAGSEwH7ZGc&utm_campaign=designshare&utm_medium=link&utm_source=editor' 
               className="hover:text-gray-200 transition"
               target='_blank'
             >
@@ -85,7 +85,7 @@ function App() {
               Projects
             </Link>
             <a
-              href="https://www.canva.com/design/DAF7PMuxOAc/xrkVs_4d2kFtrIQ9BehuXA/view?utm_content=DAF7PMuxOAc&utm_campaign=designshare&utm_medium=link&utm_source=editor"
+              href="https://www.canva.com/design/DAGSEwH7ZGc/qEsPnbb_K8YFFEh2B23fUQ/view?utm_content=DAGSEwH7ZGc&utm_campaign=designshare&utm_medium=link&utm_source=editor"
               className="block px-4 py-2 text-center hover:bg-gray-800"
               onClick={() => setIsOpen(false)}
               target='_blank'

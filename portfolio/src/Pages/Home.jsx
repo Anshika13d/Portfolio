@@ -20,7 +20,7 @@ function Home() {
           <p className='text-lg lg:text-2xl text-center lg:text-left'>I'm a Full Stack Developer</p>
           <br />
           <div className='flex space-x-6'>
-            <a href='https://www.canva.com/design/DAF7PMuxOAc/xrkVs_4d2kFtrIQ9BehuXA/view?utm_content=DAF7PMuxOAc&utm_campaign=designshare&utm_medium=link&utm_source=editor'
+            <a href='https://www.canva.com/design/DAGSEwH7ZGc/qEsPnbb_K8YFFEh2B23fUQ/view?utm_content=DAGSEwH7ZGc&utm_campaign=designshare&utm_medium=link&utm_source=editor'
               target='_blank'>
               <button className='p-4 rounded-full w-32 bg-gradient-to-tr from-slate-900 to-slate-800'>
                 Resume
